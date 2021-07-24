@@ -1,5 +1,5 @@
 # COMIC-APP
-A comic book recommendation app. This was my first attempt to learn and create something from scratch.
+A comic book recommendation app. This was my first attempt to learn and create something from scratch using SwiftUI.
 
 # PAGES
 - MAIN: This is where you can view reccomended comics.
