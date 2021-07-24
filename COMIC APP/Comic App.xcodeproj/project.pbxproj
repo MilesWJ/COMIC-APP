@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36017E0126AB8CA90018D51C /* Comic_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36017E0026AB8CA90018D51C /* Comic_AppApp.swift */; };
+		36017E0326AB8CA90018D51C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36017E0226AB8CA90018D51C /* ContentView.swift */; };
+		36017E0526AB8CAA0018D51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36017E0426AB8CAA0018D51C /* Assets.xcassets */; };
+		36017E0826AB8CAA0018D51C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36017E0726AB8CAA0018D51C /* Preview Assets.xcassets */; };
+		36017E1426AB8CAA0018D51C /* Comic_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36017E1326AB8CAA0018D51C /* Comic_AppTests.swift */; };
+		36017E1F26AB8CAA0018D51C /* Comic_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36017E1E26AB8CAA0018D51C /* Comic_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36017E1026AB8CAA0018D51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36017DF526AB8CA90018D51C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36017DFC26AB8CA90018D51C;
+			remoteInfo = "Comic App";
+		};
+		36017E1B26AB8CAA0018D51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36017DF526AB8CA90018D51C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36017DFC26AB8CA90018D51C;
+			remoteInfo = "Comic App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36017DFD26AB8CA90018D51C /* Comic App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comic App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36017E0026AB8CA90018D51C /* Comic_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic_AppApp.swift; sourceTree = "<group>"; };
+		36017E0226AB8CA90018D51C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36017E0426AB8CAA0018D51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36017E0726AB8CAA0018D51C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36017E0926AB8CAA0018D51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36017E0A26AB8CAA0018D51C /* Comic_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Comic_App.entitlements; sourceTree = "<group>"; };
+		36017E0F26AB8CAA0018D51C /* Comic AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comic AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36017E1326AB8CAA0018D51C /* Comic_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic_AppTests.swift; sourceTree = "<group>"; };
+		36017E1526AB8CAA0018D51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36017E1A26AB8CAA0018D51C /* Comic AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comic AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36017E1E26AB8CAA0018D51C /* Comic_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic_AppUITests.swift; sourceTree = "<group>"; };
+		36017E2026AB8CAA0018D51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36017DFA26AB8CA90018D51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36017E0C26AB8CAA0018D51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36017E1726AB8CAA0018D51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36017DF426AB8CA90018D51C = {
+			isa = PBXGroup;
+			children = (
+				36017DFF26AB8CA90018D51C /* Comic App */,
+				36017E1226AB8CAA0018D51C /* Comic AppTests */,
+				36017E1D26AB8CAA0018D51C /* Comic AppUITests */,
+				36017DFE26AB8CA90018D51C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36017DFE26AB8CA90018D51C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36017DFD26AB8CA90018D51C /* Comic App.app */,
+				36017E0F26AB8CAA0018D51C /* Comic AppTests.xctest */,
+				36017E1A26AB8CAA0018D51C /* Comic AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36017DFF26AB8CA90018D51C /* Comic App */ = {
+			isa = PBXGroup;
+			children = (
+				36017E0026AB8CA90018D51C /* Comic_AppApp.swift */,
+				36017E0226AB8CA90018D51C /* ContentView.swift */,
+				36017E0426AB8CAA0018D51C /* Assets.xcassets */,
+				36017E0926AB8CAA0018D51C /* Info.plist */,
+				36017E0A26AB8CAA0018D51C /* Comic_App.entitlements */,
+				36017E0626AB8CAA0018D51C /* Preview Content */,
+			);
+			path = "Comic App";
+			sourceTree = "<group>";
+		};
+		36017E0626AB8CAA0018D51C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				36017E0726AB8CAA0018D51C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36017E1226AB8CAA0018D51C /* Comic AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				36017E1326AB8CAA0018D51C /* Comic_AppTests.swift */,
+				36017E1526AB8CAA0018D51C /* Info.plist */,
+			);
+			path = "Comic AppTests";
+			sourceTree = "<group>";
+		};
+		36017E1D26AB8CAA0018D51C /* Comic AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36017E1E26AB8CAA0018D51C /* Comic_AppUITests.swift */,
+				36017E2026AB8CAA0018D51C /* Info.plist */,
+			);
+			path = "Comic AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36017DFC26AB8CA90018D51C /* Comic App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36017E2326AB8CAA0018D51C /* Build configuration list for PBXNativeTarget "Comic App" */;
+			buildPhases = (
+				36017DF926AB8CA90018D51C /* Sources */,
+				36017DFA26AB8CA90018D51C /* Frameworks */,
+				36017DFB26AB8CA90018D51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comic App";
+			productName = "Comic App";
+			productReference = 36017DFD26AB8CA90018D51C /* Comic App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36017E0E26AB8CAA0018D51C /* Comic AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36017E2626AB8CAA0018D51C /* Build configuration list for PBXNativeTarget "Comic AppTests" */;
+			buildPhases = (
+				36017E0B26AB8CAA0018D51C /* Sources */,
+				36017E0C26AB8CAA0018D51C /* Frameworks */,
+				36017E0D26AB8CAA0018D51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36017E1126AB8CAA0018D51C /* PBXTargetDependency */,
+			);
+			name = "Comic AppTests";
+			productName = "Comic AppTests";
+			productReference = 36017E0F26AB8CAA0018D51C /* Comic AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36017E1926AB8CAA0018D51C /* Comic AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36017E2926AB8CAA0018D51C /* Build configuration list for PBXNativeTarget "Comic AppUITests" */;
+			buildPhases = (
+				36017E1626AB8CAA0018D51C /* Sources */,
+				36017E1726AB8CAA0018D51C /* Frameworks */,
+				36017E1826AB8CAA0018D51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36017E1C26AB8CAA0018D51C /* PBXTargetDependency */,
+			);
+			name = "Comic AppUITests";
+			productName = "Comic AppUITests";
+			productReference = 36017E1A26AB8CAA0018D51C /* Comic AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36017DF526AB8CA90018D51C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					36017DFC26AB8CA90018D51C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					36017E0E26AB8CAA0018D51C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 36017DFC26AB8CA90018D51C;
+					};
+					36017E1926AB8CAA0018D51C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 36017DFC26AB8CA90018D51C;
+					};
+				};
+			};
+			buildConfigurationList = 36017DF826AB8CA90018D51C /* Build configuration list for PBXProject "Comic App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36017DF426AB8CA90018D51C;
+			productRefGroup = 36017DFE26AB8CA90018D51C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36017DFC26AB8CA90018D51C /* Comic App */,
+				36017E0E26AB8CAA0018D51C /* Comic AppTests */,
+				36017E1926AB8CAA0018D51C /* Comic AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36017DFB26AB8CA90018D51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36017E0826AB8CAA0018D51C /* Preview Assets.xcassets in Resources */,
+				36017E0526AB8CAA0018D51C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36017E0D26AB8CAA0018D51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36017E1826AB8CAA0018D51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36017DF926AB8CA90018D51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36017E0326AB8CA90018D51C /* ContentView.swift in Sources */,
+				36017E0126AB8CA90018D51C /* Comic_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36017E0B26AB8CAA0018D51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36017E1426AB8CAA0018D51C /* Comic_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36017E1626AB8CAA0018D51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36017E1F26AB8CAA0018D51C /* Comic_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36017E1126AB8CAA0018D51C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36017DFC26AB8CA90018D51C /* Comic App */;
+			targetProxy = 36017E1026AB8CAA0018D51C /* PBXContainerItemProxy */;
+		};
+		36017E1C26AB8CAA0018D51C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36017DFC26AB8CA90018D51C /* Comic App */;
+			targetProxy = 36017E1B26AB8CAA0018D51C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36017E2126AB8CAA0018D51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36017E2226AB8CAA0018D51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		36017E2426AB8CAA0018D51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Comic App/Comic_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Comic App/Preview Content\"";
+				DEVELOPMENT_TEAM = A8F6L6M5KQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Comic App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mileswj.Comic-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		36017E2526AB8CAA0018D51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Comic App/Comic_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Comic App/Preview Content\"";
+				DEVELOPMENT_TEAM = A8F6L6M5KQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Comic App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mileswj.Comic-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		36017E2726AB8CAA0018D51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A8F6L6M5KQ;
+				INFOPLIST_FILE = "Comic AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mileswj.Comic-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comic App.app/Contents/MacOS/Comic App";
+			};
+			name = Debug;
+		};
+		36017E2826AB8CAA0018D51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A8F6L6M5KQ;
+				INFOPLIST_FILE = "Comic AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mileswj.Comic-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comic App.app/Contents/MacOS/Comic App";
+			};
+			name = Release;
+		};
+		36017E2A26AB8CAA0018D51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A8F6L6M5KQ;
+				INFOPLIST_FILE = "Comic AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mileswj.Comic-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Comic App";
+			};
+			name = Debug;
+		};
+		36017E2B26AB8CAA0018D51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A8F6L6M5KQ;
+				INFOPLIST_FILE = "Comic AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mileswj.Comic-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Comic App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36017DF826AB8CA90018D51C /* Build configuration list for PBXProject "Comic App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36017E2126AB8CAA0018D51C /* Debug */,
+				36017E2226AB8CAA0018D51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36017E2326AB8CAA0018D51C /* Build configuration list for PBXNativeTarget "Comic App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36017E2426AB8CAA0018D51C /* Debug */,
+				36017E2526AB8CAA0018D51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36017E2626AB8CAA0018D51C /* Build configuration list for PBXNativeTarget "Comic AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36017E2726AB8CAA0018D51C /* Debug */,
+				36017E2826AB8CAA0018D51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36017E2926AB8CAA0018D51C /* Build configuration list for PBXNativeTarget "Comic AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36017E2A26AB8CAA0018D51C /* Debug */,
+				36017E2B26AB8CAA0018D51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36017DF526AB8CA90018D51C /* Project object */;
+}
