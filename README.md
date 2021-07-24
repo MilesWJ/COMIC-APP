@@ -6,4 +6,4 @@ A comic book recommendation app. This was my first attempt to learn and create s
 - ABOUT: Information about the application.
 
 # DISPLAY
-![alt text](https://github.com/MilesWJ/DANTE/blob/780da4759c77e9623a8b1e3e33e5867d471d8389/DANTE/Assets/Use1.png)
+![alt text](https://github.com/MilesWJ/COMIC-APP/blob/35c66563f0bf40a541ba5e644b366b99da6e3202/COMIC%20APP/Assets/MainUI.png)
